@@ -17,6 +17,16 @@ const users = [
     email: "tonys@medspace.com",
     password: bcrypt.hashSync("pepper123", 15),
   },
+  {
+    name: "Wanda Vision",
+    email: "wandav@medspace.com",
+    password: bcrypt.hashSync("wv123456", 15),
+  },
+  {
+    name: "Steve Rogers",
+    email: "stever@medspace.com",
+    password: bcrypt.hashSync("icedshield123", 15),
+  },
 ];
 
 export default users;
